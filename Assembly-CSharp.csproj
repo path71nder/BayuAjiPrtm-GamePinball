@@ -14,6 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFramework>net7.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -40,7 +41,7 @@
     <Analyzer Include="C:\Program Files\Unity\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\PaddleScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -294,7 +295,7 @@
         <HintPath>E:\GameDev\FirstProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\GameDev\FirstProject\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\GameDev\FirstProject\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Editor\2022.3.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
