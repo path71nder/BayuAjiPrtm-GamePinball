@@ -21,7 +21,7 @@ public class BumperController : MonoBehaviour
             Rigidbody bolaRig = bola.GetComponent<Rigidbody>();
             bolaRig.velocity *= multiplier;
 
-            // Animasi
+            // Animasi bro
             animator.SetTrigger("hit");
         }
     }
